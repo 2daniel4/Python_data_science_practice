@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+
+
+###########################Tuples
+##A sequence of variables that are imutable - can't be changed once created
+
+tuple=(4, 2, 'a', 7, 'dog')
+print(tuple)
+
+
+############################Lists
+##Similar to tuples but are mutuble
+
+list=[1,2,3,'b','d']
+
+#practice
+#What would be an appropriate slice to get the name "Christopher" from the string "Dr. Christopher Brooks"?
+x = 'Dr. Daniel Callow'
+
+print(x[4:10])
+
+#Splitting up a sentence based on spaces
+firstname="My name is Daniel Callow".split(' ')[4]
+lastname="My name is Daniel Callow".split(' ')[-1]
+
+
+##############################Dictionaries
+
